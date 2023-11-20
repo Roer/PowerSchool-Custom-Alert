@@ -8,7 +8,7 @@
     
 -   Right click on the **images** folder and select upload
     
--   Upload a .png or .gif file.
+-   Upload a .png or .gif file 24 x 24 pixels in size.
     
 
   
@@ -32,11 +32,11 @@
 -   In the newly created fragment, enter the following code:
     
 
-`~[if#phalert.~([Table.EXTENSION]FieldName)=1]<img src="/images/alert_icon.gif" height=24 width=24 title="Alert Title">[/if#phalert]` 
+`~[if#phalert.~([Students.EXTENSION]FieldName)=1]<img src="/images/alert_icon.gif" height=24 width=24 title="Alert Title">[/if#phalert]` 
 
   
 
--   Modify the **Table.EXTENSION** to the table that contains the field you wish to alert on (Following a Database.EXTENSION format, i.e. Students.ACTIVITIES)
+-   Modify the **Students.EXTENSION** to the table that contains the field you wish to alert on (Following a Database.EXTENSION format, i.e. Students.ACTIVITIES)
     
 -   Modify **FieldName** to the field you wish to alert on
     
